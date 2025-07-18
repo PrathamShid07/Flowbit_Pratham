@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MongoDB dump files (if any)
+dump/
+
+# Build and coverage
+dist/
+build/
+coverage/
+
+# React/MFEs/Webpack
+*.cache/
+.cache/
+*.temp
+*.tmp
+*.tsbuildinfo
+
+# IDEs
+.idea/
+*.sw?
+*.swo
+
+# n8n runtime data
+~/.n8n/
+n8n/.n8n/
+n8n/database.sqlite
+n8n/.n8n.sqlite*
+
+# Misc
+*.tgz
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Optional: ignore remoteEntry if generated dynamically
+**/remoteEntry.js
+
+# Optional: custom scripts
+scripts/manual-setup.js
+
+# Optional: ignoring public/uploads or similar (if used)
+public/uploads/
+uploads/
+
+# Windows-specific
+ehthumbs.db
+Desktop.ini

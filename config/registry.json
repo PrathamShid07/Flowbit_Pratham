@@ -1,0 +1,54 @@
+{
+  "LogisticsCo": {
+    "name": "LogisticsCo",
+    "displayName": "Logistics Company",
+    "theme": {
+      "primaryColor": "#2563eb",
+      "logo": "/assets/logos/logistics-co.png"
+    },
+    "screens": [
+      {
+        "id": "support-tickets",
+        "name": "Support Tickets",
+        "url": "SupportTickets",
+        "icon": "ticket",
+        "path": "/support-tickets",
+        "permissions": ["user", "admin"]
+      },
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "url": "Dashboard",
+        "icon": "dashboard",
+        "path": "/dashboard",
+        "permissions": ["user", "admin"]
+      }
+    ]
+  },
+  "RetailGmbH": {
+    "name": "RetailGmbH",
+    "displayName": "Retail GmbH",
+    "theme": {
+      "primaryColor": "#dc2626",
+      "logo": "/assets/logos/retail-gmbh.png"
+    },
+    "screens": [
+      {
+        "id": "support-tickets",
+        "name": "Support Tickets",
+        "url": "SupportTickets",
+        "icon": "ticket",
+        "path": "/support-tickets",
+        "permissions": ["user", "admin"]
+      },
+      {
+        "id": "inventory",
+        "name": "Inventory",
+        "url": "Inventory",
+        "icon": "box",
+        "path": "/inventory",
+        "permissions": ["admin"]
+      }
+    ]
+  }
+}
